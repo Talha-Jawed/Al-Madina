@@ -1,0 +1,636 @@
+.App {
+    width: 100%;
+    background: #5c5874c9;
+    /* position: absolute; */
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aTag {
+    text-decoration-line: none;
+    color: white;
+    
+}
+
+#namefont {
+    font-family: 'Helvetica Light';
+    color: white;
+}
+
+.headerName {
+    font-size: 20px;
+    padding: 0px 20px;
+    color: white;
+}
+
+.logoo {
+    height: 40px;
+    width: 300px
+}
+
+
+.logoName {
+    /* display: block; */
+    /* float: left; */
+    font-size: 1.6em;
+    text-decoration: none;
+    margin-top: 10px;
+    line-height: normal;
+    cursor: pointer;
+    
+}
+
+.rightSide {
+    display: flex;
+    padding-right: 10px;
+}
+
+.menuLine{
+    display: none;
+    padding-right: 0px;
+}
+
+.menuIcon {
+    display: none;
+}
+
+
+@media(max-width: 980px) {
+    .App {
+        background: #5c5874c9;
+        /* width: auto; */
+        /* position: static; */
+        display: inline-table;
+        /* justify-content: right; */
+        /* transition: opacity 500ms ease-in */
+    }
+    .headerName {
+        font-size: 20px;
+        padding: 0px 20px;
+        color: white;
+    }
+    .rightSide {
+        display: none;
+        padding-right: 0px;
+    }
+
+    .menuLine{
+        display: inline;
+        padding-right: 0px;
+    }
+    
+    .menuIcon {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 100;
+        margin: 16px 20px 0px 0px;
+        height: 34px;
+        width: 36px;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 370px) {
+    .headerName {
+        font-size: 18px;
+        padding: 0px 12px;
+        color: white;
+    }
+    
+}
+
+/* skill component */
+
+.skill {
+    background-color: rgba(255, 255, 255, 0.924);
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px
+}
+
+.skillHeading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: black;
+    padding-top: 20px;
+}
+
+.skillEM {
+    color: rgb(49, 49, 49);
+    font-size: 20px;
+    margin-top: 5px;
+    width: 90%;
+    text-align: center;
+}
+
+.skillCardMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 85%;
+    margin-top: 26px;
+}
+
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 4%;
+}
+
+.skillCardImg {
+    background-color: #c8c4cf;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.skillImg {
+    height: 80px;
+    padding: 12px;
+}
+
+.skillCardName {
+    font-size: 24px;
+    font-weight: bold;
+    /* margin: 10px; */
+    text-align: center;
+
+}
+
+.skillCardDetail {
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+    font-family: Times, serif;
+}
+
+@media screen and (max-width: 740px) {
+    .skillCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+        margin: 12% 5%;
+        transition: 1s;
+    }
+    
+}
+
+@media screen and (max-width: 370px) {
+    .skillEM {
+        font-size: 18px;
+        text-align: center;
+    }
+    .gitBtn {
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+        width: 33%;
+        padding: 4px;
+    }
+
+}
+
+/* About component  */
+
+.about {
+    width: 100%;
+    background: #5c5874ea;
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px 90px 0px;
+}
+
+.aboutHeading {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 60px 0px;
+    color: white;
+}
+
+.profileImageDiv {
+    background-color: #c8c4cf;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 36px;
+}
+
+.profileImage {
+    height: 200px;
+    width: 200px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+.languges {
+    font-size: 18px;
+    color: lightgrey;
+    /* font-family: ita; */
+    margin-top: 0px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.aboutDetail {
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    color: lightgrey;
+}
+
+/* social */
+
+.social {
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    transition: 1s;
+}
+
+.socialIcon {
+    width: 36px;
+    height: 36px;
+    margin: 7px 8px 7px 12px;
+}
+
+.socialIcon:hover {
+    cursor: pointer;
+    transition: .2s;
+    transform: scale(1.2);
+    overflow: hidden;
+    opacity: .9;
+}
+
+@media(max-width: 980px) {
+    .social {
+        display: flex;
+        position: fixed;
+        z-index: 100;
+        cursor: pointer;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        right: 0;
+        transition: 1s;
+
+    }
+}
+
+/* Project  */
+
+.repo {
+    padding: 80px 0px 100px 0px;
+    display: flexbox;
+    background-color: rgba(255, 255, 255, 0.924);
+    width: 100%;
+}
+
+.repoMain {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* background-color: rgba(255, 255, 255, 0.924); */
+    /* margin: 0px; */
+    
+}
+
+.projectHeading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    color: black;
+    margin-top: 0px;
+}
+
+.repo-card-div {
+    margin-bottom: 20px;
+    color: rgb(88, 96, 105);
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 30px -15px;
+    padding: 2rem;
+    cursor: pointer;
+    width: 40%;
+}
+.repo-card-div:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 25px -5px;
+}
+
+.repo-stats {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-size: 13px;
+    color: rgb(106, 115, 125);
+}
+
+.repo-left-stat {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    display: flex;
+}
+
+.language-color {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    margin-right: 0.25rem;
+    border-radius: 100%;
+}
+
+.repo-left-stat span {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 0.75rem;
+}
+
+.repo-name-div {
+    display: flex;
+    align-items: center;
+}
+
+.repo-svg {
+    margin-right: 0.5rem;
+    min-width: 16px;
+}
+
+.repo-name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgb(36, 41, 46);
+    margin-bottom: 0.75rem;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.repo-star-svg {
+    margin-right: 0.3rem;
+}
+
+.gitDiv {
+    text-align: center;
+    width: 100%;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.gitBtn {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    background-color: #5c5874c9;
+    width: 20%;
+    margin: 0px;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 5px -5px;
+    letter-spacing: -0.3px;
+    border: 0.5px solid  #5c5874c9;
+    transition: 0.5s;
+}
+
+.gitBtn:hover {
+    color: rgb(88, 96, 105);
+    background-color: rgba(255, 255, 255, 0.924);
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 10px 30px -15px;
+    color: black;
+    transition: 0.5s;
+
+}
+
+  @media(max-width: 980px) {
+    .repo-card-div {
+        color: rgb(88, 96, 105);
+        background-color: rgba(255, 255, 255, 0.924);
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 30px -15px;
+        padding: 1rem;
+        cursor: pointer;
+        width: 95%;
+    }
+    .projectHeading {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 80px;
+        color: black;
+        margin-top: 0px;
+    }
+    .gitBtn {
+        font-size: 28px;
+        font-weight: 600;
+        color: white;
+        width: 40%;
+        padding: 4px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gitBtn {
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+        width: 70%;
+        padding: 4px;
+    }
+
+}
+
+/* Achievements And Certifications */
+
+.Achievements {
+    width: 100%;
+    background: #5c5874ea;
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 90px;
+    
+}
+
+.AchievementsHeading {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 70px 0px;
+    color: white;
+}
+
+.AchievementsMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+}
+
+.AchievementsCard {
+    width: 30%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 6px;
+    padding-bottom: 30px;
+}
+
+.AchievementsCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 2px 15px 5px;
+}
+
+.AchievementsImages {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.AchievementsCardBtn {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.viewBtn {
+    width: 20%;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 4px;
+    letter-spacing: -0.3px;
+}
+
+.viewBtn:hover {
+    transition: 0.5s;
+    color: white;
+    background-color: #5c5874ce;
+}
+
+@media(max-width: 1050px) {
+    .AchievementsCard {
+        width: 40%;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 10px;
+        border-radius: 6px;
+        transition: 1s;
+    }
+    .AchievementsImages {
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+@media(max-width: 800px) {
+    .AchievementsCard {
+        width: 70%;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 16px 0px;
+        border-radius: 6px;
+    }
+
+    .AchievementsImages {
+        height: 290px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .AchievementsHeading {
+        font-size: 32px;
+        font-weight: bold;
+        margin: 60px 0px;
+        color: white;
+        text-align: center;
+    }
+}
+
+@media(max-width: 600px) {
+    .AchievementsCard {
+        width: 80%;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 16px 0px;
+        border-radius: 6px;
+    }
+
+    .AchievementsImages {
+        height: 250px;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    
+}
+
+/* contact */
+
+.contact {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px;
+    color: black;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+.made {
+    color: rgb(49, 49, 49);
+    font-size: 20px;
+    padding: 100px 0px 0px 0px;
+    width: 90%;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+@media(max-width: 600px) {
+    
+    .contact {
+        font-size: 20px;
+        font-weight: '600';
+        margin: 10px;
+        color: black;
+        text-align: center;
+    }
+    
+}

@@ -1,0 +1,12 @@
+.main {
+  /* background-color: aquamarine;
+  position: relative; */
+  width: 100%;
+  /* flex: auto; */
+  /* height: 150vh; */
+  background-image: url(./assets/bg.jpg);
+  background-size: cover;
+  overflow: hidden;
+  /* opacity: .5; */
+  background-position: initial;
+}
