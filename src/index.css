@@ -15,5 +15,5 @@ code {
   font-family: 'Agustina Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Agustina Regular'), url('./assets/Agustina.woff') format('woff');
+  src: local('Agustina Regular'), url('./assets/good.otf');
 }
