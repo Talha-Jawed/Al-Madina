@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import webImg from '../assets/hardLogo.png'
-import mobImg from '../assets/iceLogo.png'
+import webImg from '../assets/hardLogo.jpg'
+import mobImg from '../assets/iceLogo.jpg'
 import apiImg from '../assets/importer.png'
 import databaseImg from '../assets/databas.png'
 import cloudImg from '../assets/cloud.png'
@@ -14,7 +14,7 @@ class Skill extends Component {
             arr: [
                 {
                     image: webImg,
-                    name: 'Hard Ice Cream Machine',
+                    name: 'Gelato Ice Cream Machine',
                     detail: 'Latest new style gelato batch freezer coming up with fast production and more smoothness.'
                 },
                 {

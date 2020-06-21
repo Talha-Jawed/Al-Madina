@@ -33,7 +33,7 @@ const Slideshow = () => {
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${img3})` , width:'100%'}}>
+            <div style={{'backgroundImage': `url(${img3})`}}>
               {/* <span>Slide 3</span> */}
             </div>
           </div>

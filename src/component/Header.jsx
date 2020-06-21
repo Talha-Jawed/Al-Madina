@@ -31,16 +31,16 @@ class WebHeader extends Component {
           </div>
           <div className={clickMenu ? 'menuLine' : 'rightSide'} >
             <a href='#Skill' className='aTag'>
-              <p className='headerName'>{"Skills"}</p>
+              <p className='headerName'>{"Services"}</p>
             </a>
-            <a href='#About' className='aTag'>
+            {/* <a href='#About' className='aTag'>
               <p className='headerName'>{"About"}</p>
-            </a>
-            <a href='#openSource' className='aTag'>
+            </a> */}
+            {/* <a href='#openSource' className='aTag'>
               <p className='headerName'>{"Open Source"}</p>
-            </a>
+            </a> */}
             <a href='#Achievement' className='aTag'>
-              <p className='headerName'>{"Achivements"}</p>
+              <p className='headerName'>{"Machine"}</p>
             </a>
             <a href='#Contact' className='aTag'>
               <p className='headerName'>{"Contact Me"}</p>

@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "al-madina",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Talha-Jawed.github.io/portfolio",
+  "homepage": "https://Talha-Jawed.github.io/Al-Madina",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.12.0",

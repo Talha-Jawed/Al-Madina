@@ -14,7 +14,7 @@
 }
 
 #namefont {
-    font-family: 'Helvetica Light';
+    font-family: 'Agustina Regular';
     color: white;
 }
 
@@ -149,13 +149,13 @@
 
 .skillCardImg {
     background-color: #c8c4cf;
-    border-radius: 50%;
+    border-radius: 100%;
     overflow: hidden;
 }
 
 .skillImg {
-    height: 80px;
-    padding: 12px;
+    height: 130px;
+    padding: 2px;
 }
 
 .skillCardName {
@@ -512,7 +512,7 @@
 }
 
 .AchievementsImages {
-    height: 450px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
 }
@@ -552,7 +552,7 @@
         transition: 1s;
     }
     .AchievementsImages {
-        height: 300px;
+        height: 420px;
         width: 100%;
         overflow: hidden;
     }
@@ -570,7 +570,7 @@
     }
 
     .AchievementsImages {
-        height: 290px;
+        height: 380px;
         width: 100%;
         overflow: hidden;
     }
@@ -595,7 +595,7 @@
     }
 
     .AchievementsImages {
-        height: 250px;
+        height: 320px;
         width: 100%;
         overflow: hidden;
     }

@@ -12,7 +12,7 @@ import Slideshow from './component/Slider';
 function App() {
   return (
     <div className='main'>
-      <Social />
+      {/* <Social /> */}
       <a id='#'>
         <Header />
       </a>
