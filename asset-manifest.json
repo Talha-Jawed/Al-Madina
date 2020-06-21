@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Al-Madina/static/css/main.dd08fd63.chunk.css",
-    "main.js": "/Al-Madina/static/js/main.64c5d572.chunk.js",
-    "main.js.map": "/Al-Madina/static/js/main.64c5d572.chunk.js.map",
+    "main.css": "/Al-Madina/static/css/main.776a04bb.chunk.css",
+    "main.js": "/Al-Madina/static/js/main.1b2db42f.chunk.js",
+    "main.js.map": "/Al-Madina/static/js/main.1b2db42f.chunk.js.map",
     "runtime-main.js": "/Al-Madina/static/js/runtime-main.5982846e.js",
     "runtime-main.js.map": "/Al-Madina/static/js/runtime-main.5982846e.js.map",
-    "static/js/2.f16435fc.chunk.js": "/Al-Madina/static/js/2.f16435fc.chunk.js",
-    "static/js/2.f16435fc.chunk.js.map": "/Al-Madina/static/js/2.f16435fc.chunk.js.map",
+    "static/js/2.5cec1aed.chunk.js": "/Al-Madina/static/js/2.5cec1aed.chunk.js",
+    "static/js/2.5cec1aed.chunk.js.map": "/Al-Madina/static/js/2.5cec1aed.chunk.js.map",
     "index.html": "/Al-Madina/index.html",
-    "precache-manifest.97d55d38862d7b98d1bdcf21a6399b9c.js": "/Al-Madina/precache-manifest.97d55d38862d7b98d1bdcf21a6399b9c.js",
+    "precache-manifest.12bd8971745509c5b11fa7e4e665185e.js": "/Al-Madina/precache-manifest.12bd8971745509c5b11fa7e4e665185e.js",
     "service-worker.js": "/Al-Madina/service-worker.js",
-    "static/css/main.dd08fd63.chunk.css.map": "/Al-Madina/static/css/main.dd08fd63.chunk.css.map",
+    "static/css/main.776a04bb.chunk.css.map": "/Al-Madina/static/css/main.776a04bb.chunk.css.map",
     "static/media/batch.jpeg": "/Al-Madina/static/media/batch.8667d476.jpeg",
     "static/media/App.css": "/Al-Madina/static/media/bg.9812fa96.jpg",
     "static/media/carpigiani.jpeg": "/Al-Madina/static/media/carpigiani.4921546f.jpeg",
@@ -18,6 +18,7 @@
     "static/media/devTo.png": "/Al-Madina/static/media/devTo.e82e21e5.png",
     "static/media/freezer300.jpeg": "/Al-Madina/static/media/freezer300.e953d4a1.jpeg",
     "static/media/fruit.jpeg": "/Al-Madina/static/media/fruit.fe352e36.jpeg",
+    "static/media/gmail.png": "/Al-Madina/static/media/gmail.8ac3b5d4.png",
     "static/media/index.css": "/Al-Madina/static/media/good.9cbf962c.otf",
     "static/media/hardLogo.jpg": "/Al-Madina/static/media/hardLogo.5cb0b5e4.jpg",
     "static/media/homog.jpeg": "/Al-Madina/static/media/homog.0f7075d3.jpeg",
@@ -35,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5982846e.js",
-    "static/js/2.f16435fc.chunk.js",
-    "static/css/main.dd08fd63.chunk.css",
-    "static/js/main.64c5d572.chunk.js"
+    "static/js/2.5cec1aed.chunk.js",
+    "static/css/main.776a04bb.chunk.css",
+    "static/js/main.1b2db42f.chunk.js"
   ]
 }

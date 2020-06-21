@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Al-Madina/precache-manifest.97d55d38862d7b98d1bdcf21a6399b9c.js"
+  "/Al-Madina/precache-manifest.12bd8971745509c5b11fa7e4e665185e.js"
 );
 
 self.addEventListener('message', (event) => {

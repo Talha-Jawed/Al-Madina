@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0317bcd1640170ea39b83b966fbd038",
+    "revision": "1a53cffa11e4592d9244564f803f6461",
     "url": "/Al-Madina/index.html"
   },
   {
-    "revision": "e92b14c6e1b1318ea2f0",
-    "url": "/Al-Madina/static/css/main.dd08fd63.chunk.css"
+    "revision": "d4e52b14854a0234ae50",
+    "url": "/Al-Madina/static/css/main.776a04bb.chunk.css"
   },
   {
-    "revision": "ab968b5cd2eafd4fe06f",
-    "url": "/Al-Madina/static/js/2.f16435fc.chunk.js"
+    "revision": "8259d9f6233326ceab4b",
+    "url": "/Al-Madina/static/js/2.5cec1aed.chunk.js"
   },
   {
-    "revision": "e92b14c6e1b1318ea2f0",
-    "url": "/Al-Madina/static/js/main.64c5d572.chunk.js"
+    "revision": "d4e52b14854a0234ae50",
+    "url": "/Al-Madina/static/js/main.1b2db42f.chunk.js"
   },
   {
     "revision": "d3117c42715df50c7a95",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fe352e36139ca2d1499896c20ed4bd92",
     "url": "/Al-Madina/static/media/fruit.fe352e36.jpeg"
+  },
+  {
+    "revision": "8ac3b5d4477a35d7c4e9f75fc077358d",
+    "url": "/Al-Madina/static/media/gmail.8ac3b5d4.png"
   },
   {
     "revision": "9cbf962c74639762077dcdccd1b914c0",
